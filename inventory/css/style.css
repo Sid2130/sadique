@@ -1,0 +1,12 @@
+.body-container{ width:960px; margin: 0 auto; }
+
+.header{ width: 100%; height: 100px; background: #444;}
+.header .content-area{ width: 960px; margin: 0 auto;}
+
+.grids {
+	width:310px;
+	height: 400px;
+	margin: 5px;
+	background: #444;
+}
+
