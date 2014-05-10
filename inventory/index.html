@@ -3,20 +3,33 @@
   <head>
     <title>Inventory</title>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/responsive-nav.css">
     <link href="css/style.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="css/navbar.css" media="all" rel="Stylesheet" type="text/css" />
+
+    <link href="css/tab_style.css" rel="Stylesheet" media="screen and (min-width: 720px) and (max-width: 1000px)" type="text/css" />
+    <link href="css/pc_style.css" rel="Stylesheet" media="screen and (min-width: 1001px)" type="text/css" />
     
   </head>
   <body>
-    <nav class="nav-collapse">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-
+   
+    <div class="header">
+      <div class="header-wrapper">
+        <div class="logo pull-left">Inventory</div>
+        <nav class="nav-collapse pull-right">
+          <ul>
+            <li class="contents"><a href="#">Home</a></li>
+            <li class="contents"><a href="#">About</a></li>
+            <li class="contents"><a href="#">Projects</a></li>
+            <li class="contents"><a href="#">Contact</a></li>
+            <li class="clearfix"></li>
+          </ul>
+        </nav>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  
 
     <div class="body-container">
       <div class="grids pull-left"></div>
@@ -33,7 +46,7 @@
     <script>
         var nav = responsiveNav(".nav-collapse", { // Selector
         animate: true, // Boolean: Use CSS3 transitions, true or false
-        transition: 284, // Integer: Speed of the transition, in milliseconds
+        transition: 500, // Integer: Speed of the transition, in milliseconds
         label: "Menu", // String: Label for the navigation toggle
         insert: "before", // String: Insert the toggle before or after the navigation
         customToggle: "", // Selector: Specify the ID of a custom toggle
