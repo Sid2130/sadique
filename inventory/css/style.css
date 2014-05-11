@@ -2,8 +2,15 @@
 body{ font-family: 'Roboto', sans-serif;  }
 
 
-.header{ width: 100%; background: #2ecc71; color: #ecf0f1; min-height: 50px;}
+.header{ width: 100%; background: rgba(100,100,100,0.3); color: #ecf0f1; min-height: 50px; margin-bottom: 20px; box-shadow: 0px -3px 15px 0px #fff;}
 .header a{ color: #ecf0f1; font-family: 'Roboto', sans-serif; font-weight: lighter;}
 .header a:hover{text-decoration: none; color: #fff; transition: color 0.35s ease;}
 
+.grid{ padding: 5px; font-weight: lighter;}
 
+
+.panel{ font-family: 'Roboto', sans-serif; font-weight: lighter; background: rgba(0,0,0,0); color: #fff; }
+.panel .panel-default { border-color: #ecf0f1; color: #fff; }
+.panel .panel-title { color: #fff; font-weight: lighter;}
+.panel .panel-heading { background-color: rgba(100,100,100,0.5);}
+.panel .panel-body { background-color: rgba(0,0,0,0.4);}
