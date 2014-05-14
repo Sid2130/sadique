@@ -8,6 +8,7 @@ body{ background: url('../img/background-pc1.jpg'); background-size: 100% 110%;}
 .grid .icon-container .icon { font-size: 60px; border-radius: 50%; border: 1px solid; border: 1px solid; text-align: center; width: 150px; height: 150px; line-height: 150px; margin: 15px auto; }
 
 
+.grid-1 { width:80%; margin: 50px auto;}
 .grid-2 { width:64.74%; margin: 5px; }
 .grid-3 { width:32.37%; margin: 5px; }
 .grid-4{ width: 24%; margin: 0 0.5%;  border: 0px solid #fff; }
