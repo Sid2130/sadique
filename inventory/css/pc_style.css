@@ -1,6 +1,6 @@
 body{ background: url('../img/background-pc1.jpg'); background-size: 100% 110%;}
 .body-container{ width:1100px; margin: 0 auto; }
-.header-wrapper{ max-width: 1300px; font-size: 20px; margin: 0 auto;}
+.header-wrapper{ max-width: 1200px; font-size: 20px; margin: 0 auto;}
 .logo{ font-size: 40px; font-weight: lighter;}
 
 .grid .icon-container { width:200px; font-size: 20px; margin: 15px; text-align: center; color: #ecf0f1; cursor: pointer; padding: 15px 0px; border-radius: 10px;  }

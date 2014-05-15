@@ -2,6 +2,7 @@
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
 <script src="js/responsive-nav.min.js"></script>
+<script src="js/common.js"></script>
 <script>
     var nav = responsiveNav(".nav-collapse", { // Selector
         animate: true, // Boolean: Use CSS3 transitions, true or false
