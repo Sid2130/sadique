@@ -17,7 +17,7 @@ body{ background: url('../img/background-tab.jpg'); background-size: 100% 100%;}
 
 
 .grid-2 { width: 100%; padding: 0% 5%; margin: 5px;}
-.grid-3 { width:340px; height: 400px; margin: 5px; background: #444; }
+.grid-3 { width:340px; height: 400px; margin: 5px; }
 .grid-4{ width: 49%; margin: 0 0.5%;  border: 0px solid #fff; }
 
 
