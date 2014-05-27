@@ -1,0 +1,49 @@
+/* line 1, ../scss/sass/snippets.scss */
+.bg-dark-green {
+  background: #27ae60;
+}
+
+/* line 2, ../scss/sass/snippets.scss */
+.bg-light-green {
+  background: #2ecc71;
+}
+
+/* line 4, ../scss/sass/snippets.scss */
+.bg-dark-blue {
+  background: #43B1FA;
+}
+
+/* line 5, ../scss/sass/snippets.scss */
+.bg-light-blue {
+  background: #3498db;
+}
+
+/* line 8, ../scss/sass/snippets.scss */
+.bg-dark-red {
+  background: #c0392b;
+}
+
+/* line 9, ../scss/sass/snippets.scss */
+.bg-light-red {
+  background: #e74c3c;
+}
+
+/* line 12, ../scss/sass/snippets.scss */
+.bg-dark-orange {
+  background: #e67e22;
+}
+
+/* line 13, ../scss/sass/snippets.scss */
+.bg-light-orange {
+  background: #d35400;
+}
+
+/* line 15, ../scss/sass/snippets.scss */
+.bg-dark-yellow {
+  background: #f39c12;
+}
+
+/* line 16, ../scss/sass/snippets.scss */
+.bg-light-yellow {
+  background: #f1c40f;
+}

@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+/* line 6, ../scss/sass/main.scss */
+body {
+  margin: 0px;
+}
+
+/* line 8, ../scss/sass/main.scss */
+.font-header {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* line 9, ../scss/sass/main.scss */
+.font-regular {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 12, ../scss/sass/main.scss */
+.work-area {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 19, ../scss/sass/main.scss */
+.main-container {
+  background: #19eea9;
+  height: 1000px;
+}
+
+/* line 27, ../scss/sass/main.scss */
+.row-container .sections h1, .row-container .sections h2, .row-container .sections h3, .row-container .sections h4, .row-container .sections h5, .row-container .sections h6 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+}
+/* line 33, ../scss/sass/main.scss */
+.row-container .icon {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 50px;
+  line-height: 120px;
+  -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s, background 0.5s;
+  transition: width 0.5s, height 0.5s, transform 0.5s, background 0.5s;
+}
+/* line 46, ../scss/sass/main.scss */
+.row-container .icon .fa {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+}
+/* line 54, ../scss/sass/main.scss */
+.row-container .icon:hover {
+  font-size: 60px;
+  line-height: 120px;
+  -webkit-transition: background 0.5s, font-size 0.5s, line-height 0.5s, color 0.5;
+  transition: background 0.5s, font-size 0.5s, line-height 0.5s, color 0.5;
+}
+/* line 61, ../scss/sass/main.scss */
+.row-container .icon:hover .fa {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+/* line 69, ../scss/sass/main.scss */
+.row-container .icon-blue {
+  background: #43B1FA;
+}
+/* line 70, ../scss/sass/main.scss */
+.row-container .icon-blue:hover {
+  background: #3498db;
+}
+/* line 72, ../scss/sass/main.scss */
+.row-container .icon-green {
+  background: #2ecc71;
+}
+/* line 73, ../scss/sass/main.scss */
+.row-container .icon-green:hover {
+  background: #27ae60;
+}
+/* line 75, ../scss/sass/main.scss */
+.row-container .icon-red {
+  background: #e74c3c;
+}
+/* line 76, ../scss/sass/main.scss */
+.row-container .icon-red:hover {
+  background: #c0392b;
+}
+/* line 78, ../scss/sass/main.scss */
+.row-container .icon-orange {
+  background: #e67e22;
+}
+/* line 79, ../scss/sass/main.scss */
+.row-container .icon-orange:hover {
+  background: #d35400;
+}
+
+/* line 85, ../scss/sass/main.scss */
+.widgets-container {
+  text-align: center;
+}
+/* line 88, ../scss/sass/main.scss */
+.widgets-container .widgets {
+  height: 200px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+/* line 93, ../scss/sass/main.scss */
+.widgets-container .widgets .description {
+  height: 60px;
+  overflow: hidden;
+  max-width: 220px;
+  margin: 15px auto;
+}
+
+/* line 103, ../scss/sass/main.scss */
+.works-container {
+  background: #ecf0f1;
+}
+/* line 105, ../scss/sass/main.scss */
+.works-container .works {
+  height: 200px;
+  margin: 10px 0px;
+}
+
+/* line 111, ../scss/sass/main.scss */
+.slides-container {
+  margin-bottom: 20px;
+}
+/* line 113, ../scss/sass/main.scss */
+.slides-container .slides {
+  height: 400px;
+}
